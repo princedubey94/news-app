@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# News App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://github.com/simranlotey/react-news-app/blob/master/src/components/Images/demo.png)
 
-## Available Scripts
+This News App is powered by the GNews public API and provides users with the latest news articles from around the world. The app offers a user-friendly interface where news articles are organized by categories, allowing users to easily browse and read articles of their interest. 
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Category-based News**: The app categorizes news articles into various categories, including entertainment, business, sports, technology, health, science, and more. Users can click on a category to view articles specific to that category.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Search News**: The app includes a search bar that enables users to search for specific news articles. Users can enter keywords related to the news they are interested in, and the app will display relevant articles based on the search query.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Article Details**: Each article is displayed with a title, description, publication date, channel, and a link to visit the source website. This ensures that users can get a comprehensive understanding of the news article before deciding to read more.
 
-### `npm test`
+- **Responsive Design**: The app is designed to be responsive, providing a seamless experience across different screen sizes and devices. Whether users access the app from their desktop, tablet, or smartphone, the interface will adapt smoothly to fit their device.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React**: The app is built using React, a popular JavaScript library for building user interfaces. React provides a robust foundation for creating interactive and dynamic components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Redux**: Redux is used for state management in the app. It helps manage the global state of the application and enables a more organized and predictable way of handling data flows.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Styled-Components**: Styled-Components is used for styling the app. It allows developers to write CSS within JavaScript, making it easier to manage styles for individual components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React-Bootstrap**: React-Bootstrap is utilized for building responsive and customizable UI components. It provides a wide range of pre-built components that can be easily integrated into the app.
 
-### `npm run eject`
+- **Axios**: Axios is a JavaScript library used to make HTTP requests. It is employed in this project to fetch data from the GNews public API.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the React News App on your local machine, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository to your local machine using the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+git clone https://github.com/simranlotey/react-news-app.git
+```
 
-## Learn More
+2. Navigate to the project directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+cd react-news-app
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install the required dependencies:
 
-### Code Splitting
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Start the development server:
 
-### Analyzing the Bundle Size
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the app.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions to this News App are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request in this repository.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This News App is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
 
-### Deployment
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- This app utilizes the GNews public API for fetching news articles. Visit their website for more information: [GNews API](https://gnews.io/)
